@@ -1,15 +1,3 @@
-body {
-    background: #151926;
-}
-
-.container_head {
-
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-    justify-content: space-around;
-}
-
 .photo {
     width: 50px;
     height: 50px;
@@ -21,24 +9,16 @@ body {
     flex-wrap: wrap;
 }
 
-.card {
-    width: 90px;
-    height: 70px;
-}
 
 .cash {
     width: 90px;
     height: 70px;
 }
 
-.potato {
-    width: 90px;
-    height: 70px;
-}
 
 .container_payment {
     background-color: #D9D9D9;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 15px;
@@ -48,18 +28,13 @@ body {
 }
 
 .point {
-    width: 150px;
-    height: 150px;
+    width: 110px;
 }
 
-.yourself {
-    width: 150px;
-    height: 150px;
-}
 
 .delivery {
     background-color: #D9D9D9;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     padding: 15px;
@@ -84,19 +59,16 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: #D9D9D9;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 25px;
     text-align: center;
     padding: 15px;
     border-radius: 25px;
+    align-content: center;
+    align-items: center;
 }
 
-.kettle {
-    width: 150px;
-    height: 150px;
-
-}
 
 .total_product {
     width: fit-content;
@@ -115,12 +87,11 @@ body {
 
 .payment {
     text-align: center;
-    text-size-adjust: px;
+    width: 100%;
 }
 
 .plant {
-    width: 150px;
-    height: 150px;
+    width: 120px;
 }
 
 a {
@@ -162,24 +133,6 @@ button {
     margin: 20px;
 }
 
-.custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
-    outline: none;
-}
 
 /* 9 */
 .btn-9 {

@@ -1,0 +1,153 @@
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.container_head {
+    margin-bottom: 18px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    justify-content: space-around;
+}
+
+.custom-btn {
+    width: 150px;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-6 {
+    background: rgb(247, 150, 192);
+    background: radial-gradient(circle, rgba(247, 150, 192, 1) 0%, rgba(118, 174, 241, 1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
+.btn-6:before,
+.btn-6:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+}
+
+.btn-6:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+}
+
+.btn-6:hover {
+    background: rgb(245, 110, 168);
+    background: radial-gradient(circle, rgb(245, 110, 168, 1) 0%, rgb(87, 155, 238) 100%);
+    color: #2b4666;
+    box-shadow: none;
+}
+
+.btn-6:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.btn-6:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+}
+
+.profile_photo {
+    transition: all 0.3s ease;
+    content: url('/img/ProfileUserDefault.svg');
+
+}
+
+.container_profile:hover .profile_photo {
+    content: url('/img/ProfileUserHover.svg');
+
+}
+
+.container_profile {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_photo {
+    width: 32px;
+    height: auto;
+}
+
+.profile_wrapper {
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(-45deg, #4F10AD, #E667AF, #9FEE00, #ff0000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

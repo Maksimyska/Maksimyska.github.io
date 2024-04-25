@@ -1,37 +1,44 @@
-.container {
+main {
+    width: 100%;
+}
+
+.main-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    width: 90%;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-around;
     margin: 0 auto;
-
-
+    width: 100%;
+    align-content: flex-start;
 }
 
 body {
     background-color: #151926;
 }
 
-.trash {
-    scale: 50%;
+
+.container-product {
+    width: 50%;
+}
+
+.buy-bar {
+    background-color: rgb(192, 192, 192);
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 40px;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-evenly;
 }
 
-.container_head {
-
+.buy{
+    gap: 12px;
     display: flex;
-    flex-wrap: wrap;
-    color: D9D9D9;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
-.photo {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-}
 
 .product {
     background-color: #85846B;
@@ -47,62 +54,33 @@ body {
 
 }
 
-.container-product {
-    width: 50%;
-    /* padding-right: 10%; */
-}
-
-.price {
-    margin-left: 20px;
-}
-
 .Photography {
     width: 150px;
     margin-left: 0px;
 }
 
-.buy_bar {
-    background-color: rgb(192, 192, 192);
-    width: 400px;
-    height: 400px;
+
+.product-info {
     display: flex;
-    flex-wrap: wrap;
-    border-radius: 10%;
+    align-items: center;
+    width: fit-content;
+}
+
+.text-info {
+    display: flex;
+    gap: 5px;
     flex-direction: column;
-    padding: 30px;
-    /* gap: 60px; */
-
-    justify-content: space-evenly;
+    margin-left: 20px;
+    text-align: left;
 }
 
-.name {
-    margin-left: 3%;
+.trash {
+    width: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 24px;
 }
 
-
-
-.test2 {
-    background-color: white;
-    border-radius: 25px;
-}
-
-body {
-    background: linear-gradient(-45deg, #4F10AD, #E667AF, #9FEE00, #ff0000);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.trash:hover {
+    cursor: pointer;
 }

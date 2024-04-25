@@ -28,12 +28,16 @@ function addProductsToContainer(products) {
 
   products.forEach((product, index) => {
     const productHTML = `
-        <div class="product">
-          <img src="${product.imgSrc}" alt="фото товара" class="Photography">
-          <p class="name">${product.name}</p>
-          <p class="price">${product.price}</p>
-          <img src="/img/trash.png" alt="" class="trash" data-index="${index}">
+    <div class="product">
+    <div class="product-info">
+        <img src="${product.imgSrc}" alt="фото товара" class="Photography">
+        <div class="text-info">
+            <p class="name">${product.name}</p>
+            <p class="price">${product.price}</p>
         </div>
+    </div>
+    <img src="/img/trash.png" alt="" class="trash" data-index="${index}">
+</div>
       `;
 
     container.insertAdjacentHTML("beforeend", productHTML);
