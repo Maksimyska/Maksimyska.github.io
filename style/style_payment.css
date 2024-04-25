@@ -1,0 +1,134 @@
+body {
+    background: #151926;
+}
+
+.container_head {
+
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+}
+
+.photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.container_product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 90px;
+    height: 70px;
+}
+
+.cash {
+    width: 90px;
+    height: 70px;
+}
+
+.potato {
+    width: 90px;
+    height: 70px;
+}
+
+.container_payment {
+    background-color: #D9D9D9;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 25px;
+
+}
+
+.point {
+    width: 150px;
+    height: 150px;
+}
+
+.yourself {
+    width: 150px;
+    height: 150px;
+}
+
+.delivery {
+    background-color: #D9D9D9;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 25px;
+
+}
+
+.delivery__method {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.kettle {
+    width: 150px;
+    height: 150px;
+
+}
+
+.total_product {
+    width: fit-content;
+}
+
+.button {
+    background-color: #FCE000;
+    width: 25%;
+    height: 100px;
+    font-size: x-large;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.payment {
+    text-align: center;
+}
+
+.plant {
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.payment_method {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
