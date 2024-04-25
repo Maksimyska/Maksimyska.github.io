@@ -1,5 +1,5 @@
 body {
-    background-color: #151926;
+    background: #151926;
 }
 
 .container_head {
@@ -16,76 +16,85 @@ body {
     border-radius: 25px;
 }
 
-.conteiner_product {
-    justify-content: space-around;
+.container_product {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
 }
 
-.description {
-    /* width: 700px;
-    height: 1000px; */
-    display: flex;
-    flex-direction: column;
+.card {
+    width: 90px;
+    height: 70px;
+}
+
+.cash {
+    width: 90px;
+    height: 70px;
+}
+
+.potato {
+    width: 90px;
+    height: 70px;
+}
+
+.container_payment {
     background-color: #D9D9D9;
-    border-radius: 20px;
-    padding: 12px;
-}
-
-/* .product {
-    width: 200px;
-    height: 300px;
-} */
-
-.statistics {
-    background-color: #FCE000;
-    border-radius: 20px;
-    width: 180px;
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding: 15px;
+    margin-top: 25px;
 
 }
 
-.statistics:hover{
-    background-color: rgb(180, 137, 28);
-    transition: background-color 0.s;
+.point {
+    width: 150px;
+    height: 150px;
 }
 
-.statistics_conteiner {
-    color: #FFFFFF
+.yourself {
+    width: 150px;
+    height: 150px;
 }
 
-
-
-.zvezdi {
-    width: 50px;
-    height: 50px;
-}
-
-.reviews{
+.delivery {
     background-color: #D9D9D9;
-    border-radius: 20px;
-    width: 180px;
+    width: 40%;
+    margin: 0 auto;
     text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding: 15px;
+    margin-top: 25px;
 }
 
-.ava{
+.text {
+    font-size: 25px;
+}
+
+.total {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    width: 100%;
-    height: 190px;
-    border-radius: 20px; 
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
 }
 
-.ava2{
-    padding: 12px;
-    width: 300px;
-    height: 190px;
-    background-color: #D9D9D9;
-    border-radius: 20px; ; 
+.kettle {
+    width: 150px;
+    height: 150px;
+
+}
+
+.total_product {
+    width: fit-content;
+}
+
+.button {
+    background-color: #FCE000;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
 }

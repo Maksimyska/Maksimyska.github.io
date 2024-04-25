@@ -1,4 +1,4 @@
-// Массив с товарами (допустим, у вас есть такой массив productsData)
+// Массив с товарами
 const productsData = [
   {
     imgSrc: "/img/paint.png",
